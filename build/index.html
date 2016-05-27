@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html ng-app="generalServices">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>generalServices</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/master.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <!-- TODO: Remove gulp partials, as angular supports partials in default -->
+    <!-- Header -->
+<header>
+	<div class="header-items-container">
+		<span class="header-item logo"></span>
+		<span class="header-links">
+			<span class="header-item login-button">Login</span>
+			<span class="header-item about-button">About</span>
+			<span class="header-item contact-button">Contact</span>
+			<span class="header-item profile-image"></span>
+		</span>
+	</div>
+</header>
+
+
+    <ng-view></ng-view>
+
+    <!-- Footer -->
+<footer>
+    &copy; 2016,General Services
+</footer>
+
+
+    <!-- JS files -->
+    <script src="js/bower.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
+    <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,22 @@
+/*-------------------------------------------------
+SMACSS: BASE
+-------------------------------------------------*/
+body {
+	position:relative;
+	height:auto;
+    background: $color-white;
+    color: #ced9e0;
+    font-family: $font-OpenSans;
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+
+}
+
+a {
+    color: $color-gray;
+}
+a:hover {
+    color: #ced9e0;
+}
